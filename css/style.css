@@ -1,0 +1,183 @@
+/*
+The designs were created to the following widths:
+
+
+
+## Colors
+
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
+*/
+
+/* Body Elements*/
+body{
+    font-family: 'Karla-Bold', sans-serif; 
+    background-color: hsl(204, 43%, 93%);
+    display: relative;
+
+
+}
+
+.header p, .header h1, .header h2{
+    padding: 0 40px;
+}
+
+h1{
+    color: hsl(179, 62%, 43%);
+    
+
+}
+h2{
+    color: hsl(71, 73%, 54%);
+}
+.header-paragraph{
+    color: hsl(218, 22%, 67%);
+}
+
+.p-cription, h3{
+    padding: 0 10px;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    margin: 3% auto 0;
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    padding: 6% 0;   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bottom-container{
+    display: flex;
+    background-color: white;
+    color: white;
+}
+
+.subscription{
+    width: 50%;
+    background:hsl(179, 62%, 43%);
+    box-sizing: border-box;
+    padding: 5%;
+    border-bottom-left-radius: 6px;
+    line-height: 1.5rem;
+}
+.description{
+    width: 50%;
+    background: hsl(179, 60%, 50%);
+    padding: 15px;
+    box-sizing: border-box;
+    padding: 5%;
+    border-bottom-right-radius: 6px;
+    line-height: 1.5rem;
+}
+
+span{
+    font-size: 2rem;
+    color: white;
+}
+
+.p-price{
+    color: hsl(213, 22%, 84%);
+    
+}
+
+footer{
+    text-align: center;
+}
+
+button{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #C0DF34;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #C0DF34 1px;
+    text-decoration: none;
+    text-align: center;
+ }
+
+
+@media (max-width: 450px){
+
+    .container{
+        width: 70%;
+    }
+
+    .bottom-container{
+        display: block;
+    }
+
+    .subscription{
+        width: 100%;
+    }
+
+    
+    .description{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    span{
+        font-size: 20px;
+    }
+
+    
+    p{
+        font-size: 16px;
+    }
+
+    button{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .description{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .subscription{
+        border-bottom-left-radius: 0;
+    }
+
+
+}
+
+
