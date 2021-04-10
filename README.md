@@ -10,15 +10,14 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+This is a 3 component price card that I developed using pure CSS.
 
 ### The challenge
 
@@ -35,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/rafanicola/SinglePriceGridComponent)
-- Live Site URL: [Solution]()
+- Live Site URL: [Solution](https://rafanicola.github.io/SinglePriceGridComponent/)
 
 ## My process
 
@@ -47,11 +46,6 @@ Users should be able to:
 - CSS
 - Mobile-first workflow
 
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ## Author
 
 - Frontend Mentor - [@rafanicola](https://www.frontendmentor.io/profile/rafanicola)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
